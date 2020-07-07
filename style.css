@@ -1,42 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container{
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
+    height: 100%;
 }
 
-#celsius{
+#celsius {
     padding: 81px 0 81px 0;
     width: 99.7%;
+    height: 17%;
     font-size: 40px;
     background-color: black;
     color: white;
 }
-#celsius::placeholder{
+
+#celsius::placeholder {
     color: white;
 }
-#kelvin{
+
+#kelvin {
     padding: 81px 0 81px 0;
     width: 99.7%;
+    height: 17%;
     font-size: 40px;
     background-color: black;
     color: white;
 }
-#kelvin::placeholder{
+
+#kelvin::placeholder {
     color: white;
 }
-#farenhint{
+
+#farenhint {
     padding: 81px 0 81px 0;
     width: 99.7%;
+    height: 17%;
     font-size: 40px;
     background-color: black;
     color: white;
 }
-#farenhint::placeholder{
+
+#farenhint::placeholder {
     color: white;
 }
