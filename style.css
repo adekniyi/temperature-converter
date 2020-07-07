@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#celsius{
+    padding: 81px 0 81px 0;
+    width: 99.7%;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+#celsius::placeholder{
+    color: white;
+}
+#kelvin{
+    padding: 81px 0 81px 0;
+    width: 99.7%;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+#kelvin::placeholder{
+    color: white;
+}
+#farenhint{
+    padding: 81px 0 81px 0;
+    width: 99.7%;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+#farenhint::placeholder{
+    color: white;
+}
